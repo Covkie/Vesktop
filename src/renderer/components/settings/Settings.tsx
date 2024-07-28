@@ -116,6 +116,12 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
             title: "Open Links in app (experimental)",
             description: "Opens links in a new Vesktop window instead of your web browser",
             defaultValue: false
+        },
+        {
+            key: "reportAsClient",
+            title: "Report Vesktop as a Desktop client instead of Web",
+            description: "Use at your own risk: This doesn't change the UserAgent, Discord may detect and block this.",
+            defaultValue: false
         }
     ],
     "Vencord Location": [VencordLocationPicker]

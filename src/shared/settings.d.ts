@@ -12,6 +12,7 @@ export interface Settings {
     tray?: boolean;
     minimizeToTray?: boolean;
     openLinksWithElectron?: boolean;
+    reportAsClient?: boolean;
     staticTitle?: boolean;
     enableMenu?: boolean;
     disableSmoothScroll?: boolean;
